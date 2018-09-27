@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="remilia">#FF0600</color>
+    <color name="frandle">#FF414B</color>
+    <color name="yuyuko">#FF67CC</color>
+    <color name="ran">#003688</color>
+    <color name="yukari">#994DED</color>
+    <color name="eirin">#BC0055</color>
+    <color name="kaguya">#4CA201</color>
+    <color name="mokotan">#DB4F11</color>
+    <color name="kanako">#BE0B1E</color>
+    <color name="suwako">#FFDC0E</color>
+    <color name="tenko">#FF5845</color>
+    <color name="okuu">#01F6EF</color>
+    <color name="koishi">#D5FF1F</color>
+    <color name="hijiri">#6D21A7</color>
+    <color name="nue">#FF49A5</color>
+
+</resources>
