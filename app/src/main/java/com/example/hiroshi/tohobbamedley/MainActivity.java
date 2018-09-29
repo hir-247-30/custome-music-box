@@ -9,11 +9,13 @@ import android.media.MediaPlayer.OnCompletionListener;
 import android.support.constraint.ConstraintLayout;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends Activity implements OnCompletionListener{
 
     MediaPlayer mp;
     ImageView imageview;
+    TextView soundTitle;
 
     // i番目の曲を再生する
     int i = 0;
@@ -33,6 +35,11 @@ public class MainActivity extends Activity implements OnCompletionListener{
             R.color.eirin, R.color.kaguya, R.color.mokotan, R.color.kanako, R.color.suwako,
             R.color.tenko, R.color.okuu, R.color.koishi, R.color.hijiri, R.color.nue};
 
+    // タイトルの配列
+    int[] titles = {R.string.remilia, R.string.frandle, R.string.yuyuko, R.string.ran, R.string.yuyuko,
+            R.string.eirin, R.string.kaguya, R.string.mokotan, R.string.kanako, R.string.suwako,
+            R.string.tenko, R.string.okuu, R.string.koishi, R.string.hijiri, R.string.nue};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,9 +54,14 @@ public class MainActivity extends Activity implements OnCompletionListener{
         imageview = findViewById(R.id.imageView);
         imageview.setImageResource(R.drawable.remilia);
 
+        // タイトルのセット
+        soundTitle = findViewById(R.id.title);
+        soundTitle.setText(titles[i]);
+
         // BGMをセット
         mp = MediaPlayer.create(getApplicationContext(), sound[i]);
         mp.start();
+
         // 曲が終わった時に呼び出されるリスナー
         mp.setOnCompletionListener(this);
 
@@ -101,14 +113,21 @@ public class MainActivity extends Activity implements OnCompletionListener{
             i = 0;
         }
 
+        // 次の曲を再生
         mp = MediaPlayer.create(getApplicationContext(), sound[i]);
         mp.start();
 
+        // 次の画像をセット
         imageview = findViewById(R.id.imageView);
         imageview.setImageResource(picture[i]);
 
+        // 背景をセット
         ConstraintLayout background = findViewById(R.id.back);
         background.setBackgroundColor(getResources().getColor(color[i]));
+
+        // タイトルを変更
+        soundTitle = findViewById(R.id.title);
+        soundTitle.setText(titles[i]);
 
         // リスナーのセット
         mp.setOnCompletionListener(this);

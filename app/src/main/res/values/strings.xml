@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">TOHO BBA Medley</string>
+
+    <string name="remilia">♪ 亡き王女の為のセプテット / 東方紅魔郷</string>
+    <string name="frandle">♪ U.N.オーエンは彼女なのか？ / 東方紅魔郷</string>
+    <string name="yuyuko">♪ 幽雅に咲かせ、墨染の桜 〜 Border of Life / 東方妖々夢</string>
+    <string name="ran">♪ 少女幻葬 〜 Necro-Fantasy / 東方妖々夢</string>
+    <string name="yukari">♪ ネクロファンタジア / 東方妖々夢</string>
+    <string name="eirin">♪ 千年幻想郷 〜 History of the Moon / 東方永夜抄</string>
+    <string name="kaguya">♪ 竹取飛翔 〜 Lunatic Princess / 東方永夜抄</string>
+    <string name="mokotan">♪ 月まで届け、不死の煙 / 東方永夜抄</string>
+    <string name="kanako">♪ 神さびた古戦場 〜 Suwa Foughten Field / 東方風神録</string>
+    <string name="suwako">♪ ネイティブフェイス / 東方風神録</string>
+    <string name="tenko">♪ 有頂天変 ～ Wonderful Heaven / 東方緋想天</string>
+    <string name="okuu">♪ 霊知の太陽信仰 〜 Nuclear Fusion / 東方地霊殿</string>
+    <string name="koishi">♪ ハルトマンの妖怪少女 / 東方地霊殿</string>
+    <string name="hijiri">♪ 感情の摩天楼 〜 Cosmic Mind / 東方星蓮船</string>
+    <string name="nue">♪ 平安のエイリアン / 東方星蓮船</string>
 </resources>

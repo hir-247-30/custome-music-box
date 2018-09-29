@@ -12,10 +12,20 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="65dp"
+        android:layout_marginBottom="85dp"
         android:src="@drawable/remilia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="360dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="450dp"
+        android:text="@string/remilia"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageButton
@@ -36,7 +46,7 @@
         android:layout_height="55dp"
         android:layout_marginEnd="155dp"
         android:layout_marginRight="170dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="485dp"
         android:background="@drawable/controllwhite"
         android:onClick="control"
         app:layout_constraintEnd_toEndOf="parent"
