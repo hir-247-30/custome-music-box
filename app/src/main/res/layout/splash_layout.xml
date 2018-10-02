@@ -7,10 +7,22 @@
     android:background="#000000">
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/isplashimage"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/splash"
+        android:src="@drawable/splash2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/splashtitle"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:text="@string/splash_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

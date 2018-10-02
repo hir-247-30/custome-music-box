@@ -3,20 +3,20 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="remilia">#FF0600</color>
-    <color name="frandle">#FF414B</color>
-    <color name="yuyuko">#FF67CC</color>
-    <color name="ran">#003688</color>
-    <color name="yukari">#994DED</color>
-    <color name="eirin">#BC0055</color>
-    <color name="kaguya">#4CA201</color>
-    <color name="mokotan">#DB4F11</color>
-    <color name="kanako">#BE0B1E</color>
-    <color name="suwako">#FFDC0E</color>
-    <color name="tenko">#FF5845</color>
-    <color name="okuu">#01F6EF</color>
-    <color name="koishi">#D5FF1F</color>
-    <color name="hijiri">#6D21A7</color>
-    <color name="nue">#FF49A5</color>
+    <color name="remilia">#fd6e6a</color>
+    <color name="frandle">#fd6e6a</color>
+    <color name="yuyuko">#fd9fde</color>
+    <color name="ran">#3d5f91</color>
+    <color name="yukari">#be92ef</color>
+    <color name="eirin">#c95388</color>
+    <color name="kaguya">#75a44c</color>
+    <color name="mokotan">#e98458</color>
+    <color name="kanako">#c4505c</color>
+    <color name="suwako">#fce977</color>
+    <color name="tenko">#fd9489</color>
+    <color name="okuu">#59fdf9</color>
+    <color name="koishi">#e4fd77</color>
+    <color name="hijiri">#8b65a7</color>
+    <color name="nue">#ff9cce</color>
 
 </resources>
