@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements OnCompletionListener{
     int i = 0;
 
     // BGMの配列
-    int[] sound = {R.raw.remilia, R.raw.fran, R.raw.yuyuko, R.raw.ransama, R.raw.yukarin,
+    int[] sound = {R.raw.remilia, R.raw.frandle, R.raw.yuyuko, R.raw.ransama, R.raw.yukarin,
             R.raw.eirin, R.raw.kaguya, R.raw.mokotan, R.raw.kanako, R.raw.suwako,
             R.raw.tenko, R.raw.okuu, R.raw.koishi, R.raw.hijiri, R.raw.nue};
 
