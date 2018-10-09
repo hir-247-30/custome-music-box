@@ -30,4 +30,5 @@ Team Shanghai Alice all right reserved for these music, and I will suspend to sh
 HP URL of Team Shanghai Alice: https://www16.big.or.jp/~zun/
 
 Lot of Cute images that are used in apps are written by Japanese illustrater "んがょぺ", thanks a lot!
+
 The page of illustrater, んがょぺ: https://www.pixiv.net/member_illust.php?mode=medium&illust_id=29206971
